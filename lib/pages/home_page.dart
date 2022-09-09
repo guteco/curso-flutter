@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
         ),
         child: Center(
           child: Text(
-            'Olá Mundo!!',
+            'APP TESTE!',
             style: TextStyle(
               color: Colors.white,
               fontSize: 30,
