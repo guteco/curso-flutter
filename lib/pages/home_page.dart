@@ -13,6 +13,19 @@ class HomePage extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.indigoAccent,
       ),
+      drawer: Drawer(
+        child: ListView(
+          children: [
+            UserAccountsDrawerHeader(
+              accountName: Text('Augusto Araújo'),
+              accountEmail: Text('guteco@gmail.com'),
+              currentAccountPicture: CircleAvatar(
+                child: Text('A'),
+              ),
+            ),
+          ],
+        ),
+      ),
       body: Container(
         height: 200,
         width: MediaQuery.of(context).size.width,
